@@ -1,0 +1,439 @@
+.header-title{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+}
+.wrapper-hero {
+    background-image: url('../icon/wrapping-hero.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+.wrapper-mid {
+    height: 100%;
+    padding: 150px;
+    background-image: url('../icon/template-main.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title-mid {
+    font-size:45px; 
+    font-weight: 700; 
+}
+
+.sub-mid {
+    font-size: 24px; 
+    font-weight: 400;
+}
+.title-one {
+    font-family: "Roboto";
+    font-size: 48px;
+    color: black;
+    line-height: 58px;
+    font-weight: 700;
+}
+
+.custom-btn:hover {
+    background: #F24E1E;
+}
+
+.card-text > p {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: #60269E;
+}
+.card-text > span {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #676767;
+}
+.card-custom {
+    width: 357px;
+    padding: 30px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 15px 15px 30px #ffffff,
+               -15px -15px 30px #ffffff;
+}
+
+.shadow-custom {
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                0 0  0 2px rgb(247, 243, 243),
+                0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.image-card {
+    min-height: 100px;
+}
+
+.card-text span {
+    text-align: justify !important;
+}
+
+.card-custom:hover {
+    transform: translateY(-1.5rem);
+    border: #f2295bf0 0.2em solid;
+    border-radius: 2.5rem 0 2.5rem 0;
+    transition: all 0.7s;
+}
+
+.wrapper-information {
+    background-image: url('../icon/abstract.svg');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: 70%;
+    background-size: 10%;
+    padding: 15% 10%;
+}
+.image-information:hover{
+    transform: translateY(-1.5rem);
+    border-radius: 2.5rem 0 2.5rem 0;
+    transition: all 0.7s;
+}
+.header-information {
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+}
+.footer-information {
+    font-size: 18px;
+    font-weight: 400;
+    color: #676767;
+}
+
+@media (min-width:120px) and (max-width:319px) {
+    .hero-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        margin-top: 50px;
+    }
+
+    .title-one {
+        font-family: "Roboto";
+        font-size: 16px;
+        line-height: 35px !important;
+        color: black;
+        line-height: 58px;
+        font-weight: 700;
+    }
+
+    .wrapper-mid{
+        padding: 20px;
+    }
+    .wrapper-information {
+        background-image: url('../icon/abstract.svg');
+        background-repeat: no-repeat;
+        background-position-x: left;
+        background-position-y: 750%;
+        background-size: 10%;
+    }
+    .header-title{
+        font-family: "Roboto";
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .card-mid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .image-hero img {
+        width: 150px;
+        height: 150px;
+    }
+    .card-custom {
+        width: 250px;
+        padding: 10px;
+        border-radius: 30px;
+        background: white;
+   
+    }
+
+    .title-mid {
+        font-size:24px; 
+        font-weight: 700; 
+    }
+    
+    .sub-mid {
+        font-size: 18px; 
+        font-weight: 400;
+    }
+
+    .image-card img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .card-text span {
+        font-size: 16px;
+        text-align: justify !important;
+    }
+    .card-text p {
+        font-size: 14px;
+    }
+
+    .image-information img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .wrapper-information .d-flex {
+            flex-direction: column;
+    }
+    .header-information {
+        margin-top: 10px;
+        font-size: 22px;
+        font-weight: 700;
+        color: black;
+    }
+    .footer-information {
+        font-size: 14px;
+        font-weight: 400;
+        color: #676767;
+    }
+        
+    .footers .d-flex {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footers .custom-btn {
+        width: 100px;
+        padding: 5px !important;
+    }
+
+    .footers .custom-btn span {
+        font-size: 12px;
+    }
+
+    .footers .d-flex >a >img {
+        width: 15px;
+        height: 15px;
+    }
+
+
+}
+
+/* Untuk perangkat mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+    .hero-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        margin-top: 50px;
+    }
+
+    .wrapper-mid{
+        padding: 20px;
+    }
+
+    .mid-text {
+        margin-top: 6rem;
+    }
+
+    .wrapper-information {
+        background-image: url('../icon/abstract.svg');
+        background-repeat: no-repeat;
+        background-position-x: left;
+        background-position-y: 750%;
+        background-size: 10%;
+    }
+    .header-title{
+        font-family: "Roboto";
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .card-mid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .title-one {
+        font-family: "Roboto";
+        font-size: 28px;
+        line-height: 2px;
+        color: black;
+        line-height: 58px;
+        font-weight: 700;
+    }
+    .image-hero img {
+        width: 300px;
+        height: 300px;
+    }
+    .card-custom {
+        width: 250px;
+        padding: 10px;
+        border-radius: 30px;
+        background: white;
+   
+    }
+
+    .title-mid {
+        font-size:24px; 
+        font-weight: 700; 
+    }
+    
+    .sub-mid {
+        font-size: 18px; 
+        font-weight: 400;
+    }
+
+    .image-card img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .card-text span {
+        font-size: 16px;
+        text-align: justify !important;
+    }
+    .card-text p {
+        font-size: 14px;
+    }
+
+    .image-information img {
+        width: 150px;
+        height: 200px;
+    }
+   .wrapper-information .d-flex {
+        flex-direction: column;
+   }
+    .header-information {
+        margin-top: 10px;
+        font-size: 22px;
+        font-weight: 700;
+        color: black;
+    }
+    .footer-information {
+        font-size: 14px;
+        font-weight: 400;
+        color: #676767;
+    }
+
+    .footers .d-flex {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footers .custom-btn span {
+
+    }
+    
+}
+  
+  /* Untuk perangkat tablet */
+@media (min-width: 481px)  and (max-width: 768px) {
+    .wrapper-mid{
+        padding: 20px;
+    }
+    .wrapper-information {
+        background-image: url('../icon/abstract.svg');
+        background-repeat: no-repeat;
+        background-position-x: left;
+        background-position-y: 750%;
+        background-size: 10%;
+    }
+    .header-title{
+        font-family: "Roboto";
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .card-mid {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    .title-one {
+        font-family: "Roboto";
+        font-size: 18px;
+        line-height: 25px !important;
+        color: black;
+        line-height: 58px;
+        font-weight: 700;
+    }
+    .image-hero img {
+        width: 300px;
+        height: 300px;
+    }
+    .card-custom {
+        width: 250px;
+        padding: 10px;
+        border-radius: 30px;
+        background: white;
+   
+    }
+
+    .title-mid {
+        font-size:24px; 
+        font-weight: 700; 
+    }
+    
+    .sub-mid {
+        font-size: 18px; 
+        font-weight: 400;
+    }
+
+    .image-card img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .card-text span {
+        font-size: 16px;
+        text-align: justify !important;
+    }
+    .card-text p {
+        font-size: 14px;
+    }
+
+    .image-information img {
+        width: 150px;
+        height: 200px;
+    }
+   .wrapper-information .d-flex {
+        flex-direction: column;
+   }
+    .header-information {
+        margin-top: 10px;
+        font-size: 22px;
+        font-weight: 700;
+        color: black;
+    }
+
+    .footer-information {
+        font-size: 14px;
+        font-weight: 400;
+        color: #676767;
+    }
+
+    .footers .d-flex {
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
+
+/* Untuk perangkat desktop */
+@media only screen and (min-width: 992px) {
+/* Atur gaya CSS yang sesuai */
+}

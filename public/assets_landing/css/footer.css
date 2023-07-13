@@ -1,0 +1,404 @@
+.footer-wrapper{
+    padding: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.footer-link span{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "Roboto";
+}
+.footer-link li > a {
+    color: #666666;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer-link li a:hover{
+    transform: scale(1.05);
+    color: #F24E1E;
+    transition: all 0.5s;
+}
+.footer-name {
+    background-image: url('../icon/Footer.svg');
+    background-size: cover;
+}
+.footer-name p {
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    font-family: "Roboto";
+    color: #F24E1E !important;
+}
+
+.text-footer{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: "Roboto";
+    color: #676767;
+}
+
+.sub-text {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #666666;
+}
+
+.btn-download {
+    margin-left: -20px;
+}
+
+.appstore:hover{
+    transform: scale(1.05);
+    transition: all 0.7s;
+}
+
+.playstore:hover{
+    transform: scale(1.05);
+    transition: all 0.7s;
+}
+.bottom-footer {
+    background-color: #F24E1E;
+}
+.bottom-footer a {
+    background-color: #F24E1E;
+    color: white;
+}
+.sosial-media a {
+    background-color: #666666;
+    color: white;
+}
+
+@media (min-width:120px) and (max-width:319px) {
+    #footer {
+        margin-top: 50px;
+    }
+    .footer-name{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+    }
+    .footer-name p {
+        font-weight: 700 !important;
+        font-size: 20px !important;
+        font-family: "Roboto";
+        color: #F24E1E !important;
+    }
+    .text-footer{
+        font-weight: 700;
+        font-size: 16px;
+        font-family: "Roboto";
+        color: #676767;
+    }
+    
+    .sub-text {
+        font-weight: 400;
+        font-size: 14px;
+        font-family: "Roboto";
+        color: #666666;
+    }
+    .btn-download {
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-download img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .appstore {
+        margin-top: -40px;
+    }
+
+    .footer-link {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-link span{
+        font-weight: 700;
+        font-size: 18px;
+        font-family: "Roboto";
+    }
+    .footer-link li {
+        margin-bottom: 10px;
+    }
+    .footer-link li > a {
+        color: #666666;
+        font-family: "Nunito Sans";
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .bottom-footer {
+        background-color: #F24E1E;
+        display: flex;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    .persyaratan a {
+        font-size: 12px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+
+    .sosial-media {
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    .sosial-media a {
+        width: 30px;
+        height: 30px;
+    }
+    .sosial-media .bi {
+        width: 20px;
+        height: 20px;
+    }
+}
+/* Untuk perangkat mobile */
+@media (min-width:120px) and (max-width: 319px) {
+    #footer {
+        margin-top: 50px;
+    }
+    .footer-name{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+    }
+    .footer-name p {
+        font-weight: 700 !important;
+        font-size: 20px !important;
+        font-family: "Roboto";
+        color: #F24E1E !important;
+    }
+    .text-footer{
+        font-weight: 700;
+        font-size: 16px;
+        font-family: "Roboto";
+        color: #676767;
+    }
+    
+    .sub-text {
+        font-weight: 400;
+        font-size: 14px;
+        font-family: "Roboto";
+        color: #666666;
+    }
+    .btn-download {
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-download img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .footer-link {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-link span{
+        font-weight: 700;
+        font-size: 18px;
+        font-family: "Roboto";
+    }
+    .footer-link li {
+        margin-bottom: 10px;
+    }
+    .footer-link li > a {
+        color: #666666;
+        font-family: "Nunito Sans";
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .bottom-footer {
+        background-color: #F24E1E;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .persyaratan a {
+        font-size: 12px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+
+    .sosial-media {
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    .sosial-media a {
+        width: 30px;
+        height: 30px;
+    }
+    .sosial-media .bi {
+        width: 20px;
+        height: 20px;
+    }
+    
+}
+@media (min-width:320px) and (max-width: 480px) {
+    #footer {
+        margin-top: 50px;
+    }
+    .footer-name{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+    }
+    .footer-name p {
+        font-weight: 700 !important;
+        font-size: 20px !important;
+        font-family: "Roboto";
+        color: #F24E1E !important;
+    }
+    .text-footer{
+        font-weight: 700;
+        font-size: 16px;
+        font-family: "Roboto";
+        color: #676767;
+    }
+    
+    .sub-text {
+        font-weight: 400;
+        font-size: 14px;
+        font-family: "Roboto";
+        color: #666666;
+    }
+    .btn-download {
+        display: flex;
+        flex-direction: row;
+    }
+    .btn-download img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .footer-link {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-link span{
+        font-weight: 700;
+        font-size: 18px;
+        font-family: "Roboto";
+    }
+    .footer-link li {
+        margin-bottom: 10px;
+    }
+    .footer-link li > a {
+        color: #666666;
+        font-family: "Nunito Sans";
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .bottom-footer {
+        background-color: #F24E1E;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .persyaratan a {
+        font-size: 12px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+
+    .sosial-media {
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    .sosial-media a {
+        width: 30px;
+        height: 30px;
+    }
+    .sosial-media .bi {
+        width: 20px;
+        height: 20px;
+    }
+    
+}
+@media (min-width:481px) and (max-width: 768px) {
+    #footer {
+        margin-top: 50px;
+    }
+    .footer-name{
+        display: flex;
+        padding: 25px;
+    }
+    .footer-name p {
+        font-weight: 700 !important;
+        font-size: 20px !important;
+        font-family: "Roboto";
+        color: #F24E1E !important;
+    }
+    .text-footer{
+        font-weight: 700;
+        font-size: 16px;
+        font-family: "Roboto";
+        color: #676767;
+    }
+    
+    .sub-text {
+        font-weight: 400;
+        font-size: 14px;
+        font-family: "Roboto";
+        color: #666666;
+    }
+    .btn-download {
+        display: flex;
+        flex-direction: row;
+    }
+    .btn-download img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .footer-link {
+        width: auto;   
+    }
+
+    .footer-link span{
+        font-weight: 700;
+        font-size: 18px;
+        font-family: "Roboto";
+    }
+    .footer-link li {
+        margin-bottom: 10px;
+    }
+    .footer-link li > a {
+        color: #666666;
+        font-family: "Nunito Sans";
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .bottom-footer {
+        background-color: #F24E1E;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .persyaratan a {
+        font-size: 12px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+
+    .sosial-media {
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    .sosial-media a {
+        width: 30px;
+        height: 30px;
+    }
+    .sosial-media .bi {
+        width: 20px;
+        height: 20px;
+    }
+    
+}
+  

@@ -1,0 +1,24 @@
+.card-riwayat {
+    height: 350px;
+    overflow-x: hidden; 
+    overflow-y: scroll;
+}
+
+@media (min-width:120px) and (max-width:319px) {
+    .card-riwayat {
+        height: 400px;
+    }
+    .wrapper-riwayat {
+        margin-top: -80px;
+        margin-bottom: 80px;
+    }
+}
+@media (min-width:320px) and (max-width:480px) {
+    .card-riwayat {
+        height: 400px;
+    }
+    .wrapper-riwayat {
+        margin-top: -80px;
+        margin-bottom: 80px;
+    }
+}

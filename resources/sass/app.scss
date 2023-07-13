@@ -1,0 +1,14 @@
+@import "utils.scss";
+@import "summary-bayar.scss";
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+$theme-colors-text: (
+  "main": #F24E1E,
+);
+
+$font-family-base: "Roboto";

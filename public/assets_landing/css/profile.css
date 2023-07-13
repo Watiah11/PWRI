@@ -1,0 +1,306 @@
+.card-profile{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.card-profile p {
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+ 
+.nav-pills .nav-link {
+    color: black;
+    font-family: "Roboto";
+    background-color: transparent;
+}
+.nav-pills .nav-link.active {
+    color: red;
+    font-family: "Roboto";
+    background-color: transparent;
+}
+
+.tab-pane {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+  
+.tab-pane.active {
+    opacity: 1;
+}
+
+.data-diri span {
+    color: black;
+}
+
+.data-diri p,span {
+    font-family: "Roboto";
+}
+.kontak p,span {
+    font-family: "Roboto";
+}
+.alamat p,span {
+    font-family: "Roboto";
+}
+.data-diri .title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.kontak .title {
+    font-size: 18px;
+    font-weight: 600;
+}
+.alamat .title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.profile-info p {
+    color: #F24E1E;
+}
+
+.profile-info .bi-pencil{
+    color: #F24E1E;;
+}
+
+.alamat .address {
+    width: 450px;
+}
+.alamat .bi-pencil {
+    left: 400px; 
+    right: 0px;
+    cursor: pointer;
+    color: #F24E1E;
+}
+
+.verifikasi {
+    color: #F24E1E;
+    background-color: rgba(253, 128, 92, 0.08);
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+.card-pins p,span {
+    font-family: "Roboto";
+}
+
+.pin-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.pin-ubah {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.pin-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+  
+.pin-container input {
+    background-color: rgba(240, 221, 154, 1);
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid rgba(240, 221, 154, 1);
+    border-radius: 8px;
+    outline: none;
+}
+
+
+.btn-pins {
+    border-color: #F24E1E;
+    color: #F24E1E;
+}
+.btn-pins:hover {
+    border-color: #F24E1E;
+    color: #F24E1E;
+}
+
+.card-saldo {
+    background: linear-gradient(180deg, #F06740 0%, #F79F1B 100%);
+}
+.card-simpanan {
+    background: linear-gradient(180deg, #F06740 0%, #F79F1B 100%);
+}
+
+.card-saldo span {
+    font-family: "Roboto";
+}
+
+.card-simpanan span {
+    font-family: "Roboto";
+}
+
+.profile-info .bi-pencil {
+    position: relative;
+    right: 0px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.modal-name-header span {
+    font-size: 24px;
+    font-weight: 700;
+}
+.modal-name-header p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.modal-name-input p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media (min-width:120px) and (max-width:319px) {
+    .wrapper-profile-avatar {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper-profile {
+        margin-top: 50px;
+    }
+
+    .detail-profile {
+        margin-top: 50px;
+    }
+
+    .img-avatar {
+        margin-top: 50px;
+    }
+
+    .img-avatar img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .data-diri {
+        width: 150px;
+    }
+
+    .data-diri .title {
+        font-size: 16px;
+    }
+
+    .alamat .address {
+        width: 300px;
+    }
+    .alamat .bi-pencil {
+        left: 250px; 
+    }
+
+    .wrapper-modal-name span {
+        font-size: 16px;
+    }
+
+    .modal-name-header p {
+        font-size: 12px;
+    }
+    
+    .modal-name-input label {
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+@media (min-width:320px) and (max-width:480px) {
+    .wrapper-profile {
+        margin-top: 50px;
+    }
+
+    .detail-profile {
+        margin-top: 50px;
+    }
+
+    .img-avatar {
+        margin-top: 50px;
+    }
+
+    .img-avatar img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .data-diri {
+        width: 150px;
+    }
+
+    .data-diri .title {
+        font-size: 16px;
+    }
+
+    .alamat .address {
+        width: 300px;
+    }
+    .alamat .bi-pencil {
+        left: 250px; 
+    }
+
+    .wrapper-modal-name span {
+        font-size: 16px;
+    }
+
+    .modal-name-header p {
+        font-size: 12px;
+    }
+    
+    .modal-name-input label {
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+@media (min-width:481px) and (max-width:768px) {
+    .wrapper-profile {
+        margin-top: 50px;
+    }
+
+    .detail-profile {
+        margin-top: 50px;
+    }
+
+    .img-avatar img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .data-diri {
+        width: 150px;
+    }
+
+    .data-diri .title {
+        font-size: 16px;
+    }
+
+    .alamat .address {
+        width: 300px;
+    }
+    .alamat .bi-pencil {
+        left: 250px; 
+    }
+
+    .wrapper-modal-name span {
+        font-size: 16px;
+    }
+
+    .modal-name-header p {
+        font-size: 12px;
+    }
+    
+    .modal-name-input label {
+        font-size: 12px;
+        font-weight: 400;
+    }
+}

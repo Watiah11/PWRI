@@ -1,0 +1,37 @@
+.wrapper-otp {
+    display: flex;
+}
+
+.sub-text-otp span{
+    color: black !important;
+    font-size: 25px;
+}
+
+#quest{
+    font-size: 24px;
+    font-weight: 700;
+    color: black !important;
+}
+
+.send {
+    color: #F24E1E;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.pin-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+  
+.pin-container input {
+    background-color: rgba(240, 221, 154, 1);
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid rgba(240, 221, 154, 1);
+    border-radius: 8px;
+    outline: none;
+}

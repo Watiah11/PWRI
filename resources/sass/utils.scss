@@ -1,0 +1,46 @@
+.text-main{
+    color: #F24E1E !important; 
+}
+.custom-btn {
+    background: #F24E1E;
+    margin-bottom: 50px;
+}
+.custom-btn:focus {
+    background: #F24E1E;
+    margin-bottom: 50px;
+}
+.custom-btn:hover {
+    background: #F24E1E;
+}
+
+.btn-custom-1{
+    border: 1px solid #F24E1E;
+    color: #F24E1E;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.card-main {
+    border-radius: 20px;
+    padding: 20px;
+    width: max-content;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.cards-header {
+    background-color: #F24E1E;
+    position: relative;
+    z-index: 9;
+    padding: 20px;
+}
+
+
+.btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active,
+ .btn.active,
+ .btn.show {
+    background-color: #F24E1E !important;
+ }

@@ -1,0 +1,16 @@
+.riwayat-cards-wrapper {
+    border-width: 0px;
+}
+
+.header-card-riwayat {
+    background-color: rgba(242, 135, 73, 0.5);
+    margin-right: 30px;
+}
+
+@media (min-width:120px) and (max-width:319px)
+{
+    .header-card-riwayat {
+        width: 200px;
+    }
+
+}

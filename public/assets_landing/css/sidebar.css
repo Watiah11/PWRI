@@ -1,0 +1,124 @@
+.sidebar-link a {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+.card-sidebar {
+    border: 1px solid #F24E1E4D;
+    border-radius: 10px;
+}
+.profile-user p {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: black;
+}
+.btn-profile {
+    border: 1px solid #676767;
+    border-radius: 40px;
+}
+.btn-profile span{
+    color: black;
+}
+.sidebar-active {
+    color: rgba(242, 78, 30, 1);
+    font-weight: 600 !important;
+    font-size: 17px !important;
+}
+.text-dark:hover {
+    color: rgba(242, 78, 30, 1) !important;
+    font-weight: 600 !important;
+    font-size: 17px !important;
+}
+
+.text-dark {
+    font-size: 17px !important;
+}
+
+.sidebar-link img {
+    width: 24px;
+    height: 24px;
+}
+
+@media (min-width:120px) and (max-width: 319px) {
+
+    .card-sidebar {
+        margin-top: -30px;
+    }
+
+   .image-card img{
+        width: 65px;
+        height: 65px;
+        margin-top: 18px;
+    }
+    
+    .wrapper-sidebar-link {
+        margin-top: -30px;
+    }
+
+   .sidebar-link a {
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Roboto";
+    }
+   .sidebar-link img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .profile-user p{
+        font-size: 18px;
+    }
+
+    .btn-profile span{
+        font-size: 14px;
+    }
+}
+@media (min-width:320px) and (max-width: 480px) {
+   .image-card img{
+        width: 95px;
+        height: 95px;
+    }
+
+   .sidebar-link a {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Roboto";
+    }
+   .sidebar-link img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .profile-user p{
+        font-size: 18px;
+    }
+
+    .btn-profile span{
+        font-size: 14px;
+    }
+}
+@media (min-width:481px) and (max-width: 768px) {
+   .image-card img{
+        width: 95px;
+        height: 95px;
+    }
+
+   .sidebar-link a {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Roboto";
+    }
+   .sidebar-link img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .profile-user p{
+        font-size: 18px;
+    }
+
+    .btn-profile span{
+        font-size: 14px;
+    }
+}

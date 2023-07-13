@@ -1,0 +1,63 @@
+.about-title {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+.card-about {
+    padding: 10px;
+    background-color: rgba(253, 128, 92, 0.05);
+    width: 239px;
+    border: 1px solid rgba(255, 154, 108, 0.3);
+    border-radius: 10px;
+}
+
+.angka {
+    color: #F24E1E;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.desc {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+}
+
+.about-info span {
+    font-size: 22px;
+    font-weight: 600;
+}
+.about-info p {
+    font-size: 18px;
+    font-weight: 400;
+    /* text-align: justify; */
+    margin-top: 10px;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 480px) {
+    .about-title {
+        font-size: 20px;
+        font-weight: 500;
+        font-family: "Roboto";
+        margin-top: 50px
+    }
+
+    .card-about-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .about-info span {
+        font-size: 18px;
+    }
+    .about-info p {
+        font-size: 14px;
+    }
+}

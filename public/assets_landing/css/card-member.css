@@ -1,0 +1,92 @@
+.card-member{
+    background-image: url('../img/card-saldo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 174px;
+    width: 100%;
+}
+
+/* .card-member:hover{
+    transform:  scale(1.15);
+    transition: all 0.8s;
+} */
+.card-member p {
+    position: relative;
+    top: 18px;
+    left: 25px;
+    font-size: 10px;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.card-member .name {
+    position: relative;
+    top: 25px;
+    font-family: "Roboto";
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    left: 25px;
+}
+.card-member .account-number {
+    position: relative;
+    top: 35px;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    left: 25px;
+}
+.card-member .saldo {
+    position: relative;
+    top: 45px;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    left: 25px;
+}
+.card-member .saldo-user {
+    position: relative;
+    top: 48px;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    left: 25px;
+}
+
+@media (min-width:120px) and (max-width:319px)
+{
+    .card-member{
+        background-size: contain;
+        width: 221px;
+        margin-bottom: -49px;
+    }
+
+    .card-member p {
+        top: 10px;
+        font-size: 8px;
+        left: 10px;
+    }
+
+    .card-member .name {
+        position: relative;
+        top: 6px;
+    }
+    .card-member .account-number {
+        top: 15px;
+        font-size: 9px;
+    }
+    .card-member .saldo {
+        top: 20px;
+        font-size: 9px;
+    }
+    .card-member .saldo-user {
+        top: 23px;
+        font-size: 9px;
+    }
+
+}

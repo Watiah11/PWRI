@@ -1,0 +1,146 @@
+
+.text-topup {
+    font-size: 18px;
+    font-weight: 500;
+}
+.payment-method {
+    margin-top: 10px;
+    background: #ffffff;
+    border: 1px solid rgba(0,0,0,0.4);
+    box-shadow: 0px,1px,1px rgba(0,0,0,0.25);
+    border-radius: 5px;
+}
+
+.wrapper-va span {
+        font-size: 18px;
+        font-weight: 400;
+        color: black;
+    }
+.wrapper-va p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.summary-name-akun span,p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.petunjuk span {
+    font-size: 18px;
+    font-weight: 700;
+}
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+    padding-bottom: 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.accordion-button {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+
+@media (min-width:120px) and (max-width:319px) {
+
+    .custom-hr {
+        width: 250px;
+    }  
+
+    .text-topup {
+        margin-top: -10px;
+    }
+
+    .wrapper-va {
+        margin-top: 20px;
+    }
+    .wrapper-va span {
+        font-size: 14px;
+    }
+    .wrapper-va p {
+        font-size: 18px;
+    }
+    .wrapper-va img {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .summary-bayar {
+        margin-top: -50px;
+    }
+
+
+
+    .wrapper-summary-bank span{
+        font-size: 12px;
+    }
+    .wrapper-summary-bank img{
+        width: 50px;
+    }
+
+    #salin {
+        font-size: 14px;
+    }
+
+    .summary-name-akun p {
+        font-size: 18px;
+    }
+    .summary-name-akun span {
+        font-size: 18px;
+    }
+}
+@media (min-width:320px) and (max-width:480px) {
+
+    .custom-hr {
+        width: 350px
+    }  
+
+    .text-topup {
+        font-size: 14px;
+        margin-top: -10px;
+    }
+
+    .wrapper-va {
+        margin-top: 20px;
+    }
+    .wrapper-va img {
+        margin-top: 20px;
+    }
+
+    .summary-bayar {
+        margin-top: -50px;
+    }
+
+}
+@media (min-width:481px) and (max-width:768px) {
+
+    .custom-hr {
+        width: 350px
+    }  
+
+    .text-topup {
+        font-size: 14px;
+        margin-top: -10px;
+    }
+
+    .wrapper-va {
+        margin-top: 20px;
+    }
+    .wrapper-va img {
+        margin-top: 20px;
+    }
+
+    .summary-bayar {
+        margin-top: -50px;
+    }
+
+    .summary-name-akun p {
+        font-size: 18px;
+    }
+    .summary-name-akun span {
+        font-size: 18px;
+    }
+
+}

@@ -1,0 +1,48 @@
+.wrapper-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    height: 100vh;
+    gap: 30px;
+}
+
+.wrapper-register span {
+    font-size: 14px;
+    font-style: italic;
+    color: grey;
+    font-family: "Roboto";
+}
+
+.wrapper-register img {
+    width: 100px;
+    height: 100px;
+}
+
+.wrapper-register label {
+    color: rgba(255, 83, 29, 1);
+    margin-bottom: 10px; 
+    font-size: 18px;
+    font-family: "Roboto";
+}
+.wrapper-register input {
+    /* width: 35rem; */
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    font-family: "Roboto";
+}
+
+.regis-quest span {
+    font-size: 18px !important;
+    font-weight: 400;
+    font-style: normal !important;
+    color:  black;
+    font-family: "Roboto";
+}
+.regis-quest a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 83, 29, 1);
+    font-family: "Roboto";
+}

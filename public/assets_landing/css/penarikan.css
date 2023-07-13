@@ -1,0 +1,49 @@
+.picker{
+    border-width: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: #E44C51;
+    cursor: pointer;
+    background-color: white;
+}
+.btn-active{
+    background-color: #E44C51;
+    color: white;
+}
+
+
+@media (min-width:120px) and (max-width:319px) {
+    .wrraper-nominal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .picker {
+        max-width: 145px;
+    }
+}
+@media (min-width:320px) and (max-width:480px) {
+    .wrraper-nominal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .picker {
+        max-width: 145px;
+    }
+}
+@media (min-width:481px) and (max-width:768px) {
+    .wrraper-nominal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        margin-top: 10px;
+    }
+
+    .picker {
+        max-width: 145px;
+    }
+}

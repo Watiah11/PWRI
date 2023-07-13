@@ -1,0 +1,91 @@
+.btn-tampil {
+    border: 1px solid #F24E1E;
+    color: #F24E1E;
+}
+.btn-tampil:hover {
+    border: 1px solid #F24E1E;
+    color: #F24E1E;
+}
+
+.card-pins a {
+    color: #F24E1E;
+}
+
+.pin-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+  
+.pin-container input {
+    background-color: rgba(240, 221, 154, 1);
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid rgba(240, 221, 154, 1);
+    border-radius: 8px;
+    outline: none;
+}
+
+.buat-pin {
+    font-size: 16px;
+    font-weight: 600;
+}
+.buat-pin:hover {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+@media (min-width:120px) and (max-width:319px) {
+
+    .pin-title {
+        
+    }
+
+    .pin-ubah {
+        font-size: 14px;
+    }
+
+    .pin-container {
+        display: flex;
+        margin: 0px -7px;
+        justify-content: center;
+        width: 250px;
+    }
+
+    .pin-container input {
+        width: 20px;
+        height: 20px;
+    }
+
+    .card-pins {
+        margin-bottom: 50px;
+    }
+
+    .btn-tampil {
+        font-size: 12px;
+    }
+    
+}
+@media (min-width:320px) and (max-width:480px) {
+
+    .pin-container {
+        display: flex;
+        margin: 0px auto;
+        justify-content: center;
+        width: 260px;
+    }
+
+    .pin-container input {
+        width: 30px;
+        height: 30px;
+    }
+
+    .card-pins {
+        margin-bottom: 50px;
+    }
+    
+}
+

@@ -1,0 +1,139 @@
+.company {
+    font-size: 27px;
+    font-weight: 700;
+    color: #F24E1E;
+    margin-right: 100px;
+}
+
+.navbar {
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+.logo-collapse {
+    display: none;
+}
+
+@media (min-width:120px) and (max-width:319px) {
+    .logo-collapse {
+        margin-right: 20px;
+        display: block;
+        width: 25px;
+        height: 25px;
+    }
+    
+    .company {
+        display: none;
+    }
+    .navbar {
+        display: flex;
+        justify-content: start;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .fa-bars {
+        width: 25px;
+        height: 25px;
+    }
+
+    .navbar-toggler {
+        display: flex;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+    }
+
+    .dropdown-menu {
+        top: 50px;
+        left:-100px;
+    }
+    .dropdown-menu a {
+        font-size: 14px;
+    }
+
+    .profile-avatar {
+        position: absolute;
+        right: 30px;
+        top: 10px;
+    }
+
+    .profile-avatar img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .notification img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* Untuk perangkat mobile */
+@media (min-width: 320px) and (max-width: 480px) {
+    .logo-collapse {
+        margin-right: 20px;
+        display: block;
+    }
+    
+    .company {
+        display: none;
+        font-size: 26px;
+        font-weight: 700;
+        color: #F24E1E;
+    }
+    .navbar {
+        display: flex;
+        justify-content: start;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .dropdown-menu {
+        top: 50px;
+        left:-90px;
+    }
+
+    .profile-avatar {
+        position: absolute;
+        right: 30px;
+        top: 10px;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px)  {
+    .logo-collapse {
+        margin-right: 18px;
+        display: block;
+    }
+    
+    .company {
+        display: none;
+        font-size: 26px;
+        font-weight: 700;
+        color: #F24E1E;
+    }
+    .navbar {
+        display: flex;
+        justify-content: start;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .dropdown-menu {
+        top: 50px;
+        left:-90px;
+    }
+
+    .navbar-toggler {
+        display: flex;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+    }
+    .profile-avatar {
+        position: absolute;
+        right: 30px;
+        top: 10px;
+    }
+}
+
